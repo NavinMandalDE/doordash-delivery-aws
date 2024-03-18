@@ -1,6 +1,6 @@
-import boto3
+import boto3 
 import json
-import pandas as pd
+import pandas as pd # adding layer on AWS
 
 # Initialize S3 clients
 s3 = boto3.client('s3')
